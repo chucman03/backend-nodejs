@@ -1,0 +1,27 @@
+{
+  "name": "express-js-beginner",
+  "version": "1.0.0",
+  "description": "server express js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chucman03/backend-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "chucman03",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chucman03/backend-nodejs/issues"
+  },
+  "homepage": "https://github.com/chucman03/backend-nodejs#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
