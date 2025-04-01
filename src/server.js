@@ -10,7 +10,7 @@ const hostname = process.env.HOST_NAME;
 
 configViewEngine(app);
 
-app.use("/v1", webRoutes);
+app.use("/", webRoutes);
 
 // TEST connection db
 

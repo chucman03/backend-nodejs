@@ -2,11 +2,7 @@ const { json } = require("express");
 const connection = require("../config/database");
 
 const getHomepage = (req, res) => {
-  let users = [];
-  connection.query("SELECT * FROM Users", function (err, results, fields) {
-    users = results; // results contains rows returned by server
-    res.send(JSON.stringify(users));
-  });
+  return res.render("home.ejs");
 };
 
 const getAbc = (req, res) => {
