@@ -45,3 +45,22 @@ button {
   margin: 10px;
   cursor: pointer;
 }
+.d-none {
+  display: none;
+}
+.table-container a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #04aa6d;
+  color: white;
+}
+.table-container .action-btn {
+  display: flex;
+}
+.action-btn button {
+  padding: 10px;
+  background-color: #04aa6d;
+  color: white;
+}
