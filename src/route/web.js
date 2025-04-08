@@ -8,6 +8,7 @@ const {
   getUpdatePage,
   postDeleteUser,
   postHandleDeleteUser,
+  getCompany,
 } = require("../controller/homeController");
 
 const express = require("express");
@@ -21,5 +22,6 @@ router.post("/create-user", postCreateUser);
 router.post("/update-user", postUpdateUser);
 router.post("/delete-user/:id", postDeleteUser);
 router.post("/delete-user", postHandleDeleteUser);
+router.get("/get-company", getCompany);
 
 module.exports = router;

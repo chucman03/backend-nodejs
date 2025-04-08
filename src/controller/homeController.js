@@ -73,6 +73,10 @@ const postHandleDeleteUser = async (req, res) => {
   await deleteUserById(id);
   res.redirect("/");
 };
+const getCompany = async (req, res) => {
+  let results = await getAllUser();
+  res.json(results);
+};
 
 module.exports = {
   getHomepage,
@@ -84,4 +88,5 @@ module.exports = {
   postUpdateUser,
   postDeleteUser,
   postHandleDeleteUser,
+  getCompany,
 };
